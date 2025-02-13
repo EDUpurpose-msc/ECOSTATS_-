@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Email Verification</title>
+</head>
+<body style="font-family: Arial, sans-serif; color: #333333; background-color: #f9f9f9; margin: 0; padding: 20px;">
+<div style="max-width: 600px; margin: auto; background-color: #ffffff; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+    <h2>Account Registration</h2>
+    <p>Hi {{name}},</p>
+    <p>Your account for Ecostats has been successfully registered.</p>
+    <p>To verify your email, click the button below:</p>
+    <p>
+        <a href="{{link}}" style="display: inline-block; padding: 10px 20px; background-color: #007bff; color: #ffffff; text-decoration: none; border-radius: 5px; font-weight: bold;">Verify</a>
+    </p>
+    <p>This link will expire in 1 hour. After that, you’ll need to submit a new request to verify your email.</p>
+    <p>Your temporary password is: <strong>{{temporaryPassword}}</strong></p>
+    <p>If you have any questions or need further assistance, please feel free to contact our support team.</p>
+    <div style="font-size: 0.9em; color: #666666; margin-top: 20px;">
+    <p>Thank you,</p>
+    <p>Ecostats Support Team</p>
+    </div>
+</div>
+</body>
+</html>
